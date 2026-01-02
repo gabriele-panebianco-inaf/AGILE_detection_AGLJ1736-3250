@@ -8,6 +8,8 @@ The data of Table 2 and Table 3 of the paper are stored in the `reference` direc
 The repository contains the `notebooks/download.ipynb` notebook that can be used to downlaod the AGILE-GRID data.
 The notebook creates a configuration file inside the `configuration` directory, it downloads the AGILE LOG and EVT data within the `data` directory.
 
+Note: Large EVT and LOG files are handled through git LFS.
+
 ### Data Analysis
 The repository contains the `notebooks/analysis.ipynb` notebook that uses the downloaded data to create the AGILE maps, plots and perform Maximum Likelihood Estimation of the flux of AGL J1736-3250.
 The maps and the results are stored within the `results` directory and include:
