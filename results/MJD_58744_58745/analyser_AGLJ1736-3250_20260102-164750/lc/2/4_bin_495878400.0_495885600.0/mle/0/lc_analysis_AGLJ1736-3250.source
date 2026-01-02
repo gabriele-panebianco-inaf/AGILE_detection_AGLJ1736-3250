@@ -1,0 +1,34 @@
+! Label Fix index ULConfidenceLevel SrcLocConfLevel start_l start_b start_flux [ lmin,  lmax ] [ bmin, bmax ] typefun par2 par3 galmode2 galmode2fit isomode2 isomode2fit edpcor fluxcor integratortype expratioEval expratio_minthr expratio_maxthr expratio_size [ index_min , index_max ] [ par2_min , par2_max ] [ par3_min , par3_max ] contourpoints minimizertype minimizeralg minimizerdefstrategy minimizerdeftol
+! sqrt(TS)
+! L_peak B_peak Dist_from_start_position
+! L B Dist_from_start_position r a b phi
+! Counts Err +Err -Err UL
+! Flux(ph/cm2s) [0 , 1e+07] Err +Err -Err UL(ph/cm2s) ULbayes(ph/cm2s) Exp(cm2s) ExpSpectraCorFactor null null null Erglog(erg/cm2s) Erglog_Err Erglog_UL(erg/cm2s) Sensitivity FluxPerChannel(ph/cm2s)
+! Index [0.5 , 5] Index_Err Par2 [20 , 10000] Par2_Err Par3 [0 , 100] Par3_Err
+! cts fitstatus0 fcn0 edm0 nvpar0 nparx0 iter0 fitstatus1 fcn1 edm1 nvpar1 nparx1 iter1 Likelihood1
+! Gal coeffs [0 , 100] and errs
+! Gal zero coeffs and errs
+! Iso coeffs [0 , 100] and errs
+! Iso zero coeffs and errs
+! Start_date(UTC) End_date(UTC) Start_date(TT) End_date(TT) Start_date(MJD) End_date(MJD)
+! Emin..emax(MeV) fovmin..fovmax(deg) albedo(deg) binsize(deg) expstep phasecode ExpRatio
+! Fit status of steps ext1, step1, ext2, step2, contour, index, ul [-1 step skipped, 0 ok, 1 errors]
+! Number of counts for each step (to evaluate hypothesis)
+! skytypeL.filter_irf skytypeH.filter_irf
+AGLJ1736-3250 3 2.1 2 5.99147 355.823 -0.884469 3.82929e-06 [ -1 , -1 ]  [ -1 , -1 ]  0 0 0 0 0 0 0 1 1 1 1 0 15 10 [ 0.5 , 5 ] [ 20 , 10000 ] [ 0 , 100 ] 40 Minuit Migrad 2 0.01
+1.211
+355.823 -0.884469 0
+-1 -1 -1 -1 -1 -1 -1 
+1.4453 1.72735 2.19377 -1.28188 6.79211
+3.2293e-06 3.85949e-06 4.90164e-06 -2.86415e-06 1.51759e-05 1.25429e-05 447559 1 0 0 0 9.94749e-10 1.18887e-09 4.67475e-09 0.0 3.2293e-06
+2.1 0 0 0 0 0
+8 -1 39.0645 0.5 0 134 3 0 38.3312 5.18393e-07 1 134 3 46.3312
+0.642905 0
+0.642905 0
+10.2584 0
+10.2584 0
+2019-09-18T08:01:07 2019-09-18T10:01:07 495878400.0000000 495885600.0000000 58744.3333333 58744.4166667
+100..10000 0..60 80 0.5 0 6 0
+-1 -1 -1 0 -1 -1 0 
+-1 14 -1 14 -1 -1 14 
+SKY002.SFMG_H0025 SKY002.SFMG_H0025
