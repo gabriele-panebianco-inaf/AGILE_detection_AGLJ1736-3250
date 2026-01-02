@@ -1,0 +1,2 @@
+*.EVT.gz filter=lfs diff=lfs merge=lfs -text
+*.LOG.gz filter=lfs diff=lfs merge=lfs -text
