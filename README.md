@@ -1,5 +1,13 @@
 # AGILE_detection_AGLJ1736-3250
 AGILE Data, Maps and Notebooks on the detection of AGL J1736-3250.
+
+Copyright (c) 2025, INAF - Istituto Nazionale di Astrofisica
+
+Authors: Andrea Bulgarelli, Gabriele Panebianco
+
+Licensed under the BSD 3-Clause License.
+See LICENSE file for details.
+
 The Notebooks require `agilepy` for execution (https://agilepy.readthedocs.io/en/latest/).
 
 The data of Table 2 and Table 3 of the paper are stored in the `reference` directory and contain the time intervals of the 19 flares analysed, and the gamma-ray flux estimated with Maximum Likelihood Estimation (MLE) approach.
