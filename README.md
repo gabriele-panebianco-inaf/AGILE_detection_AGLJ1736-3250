@@ -8,7 +8,7 @@ Authors: Andrea Bulgarelli, Gabriele Panebianco
 Licensed under the BSD 3-Clause License.
 See LICENSE file for details.
 
-The Notebooks require `agilepy` for execution (https://agilepy.readthedocs.io/en/latest/).
+The Notebooks require `agilepy` for execution (https://agilepy.readthedocs.io/en/v1.7.0/).
 
 The data of Table 2 and Table 3 of the paper are stored in the `reference` directory and contain the time intervals of the 19 flares analysed, and the gamma-ray flux estimated with Maximum Likelihood Estimation (MLE) approach.
 
@@ -29,7 +29,7 @@ The maps and the results are stored within the `results` directory and include:
 
 
 ### Contacts
-Further information on AGILE data analysis can be found at: https://agilepy.readthedocs.io/en/latest/
+Further information on AGILE data analysis can be found at: https://agilepy.readthedocs.io/en/v1.7.0/
 Contacts for the analysis:
 - Andrea Bulgarelli: `andrea.bulgarelli@inaf.it`
 - Gabriele Panebianco: `gabriele.panebianco@inaf.it`
